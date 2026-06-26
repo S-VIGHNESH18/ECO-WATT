@@ -1,7 +1,7 @@
 # projects info
+
 ---------------------------------------------------------------------------------------------------------------------------
-# To view the project check the "project" in branch
-----------------------------------------------------------------------------------------------------------------------------
+
 ## Energy Consumption Predictor - Summary
 
 This Jupyter notebook is a Streamlit web application that predicts household energy consumption and provides sustainability insights. Here's what it does:
