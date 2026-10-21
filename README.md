@@ -1,46 +1,45 @@
-# projects info
+# 🚀 Projects Portfolio
 
----------------------------------------------------------------------------------------------------------------------------
+A collection of machine learning, energy analytics, and sustainable technology projects by [Vighnesh S](https://github.com/S-VIGHNESH18).
 
-## Energy Consumption Predictor - Summary
+---
 
-This Jupyter notebook is a Streamlit web application that predicts household energy consumption and provides sustainability insights. Here's what it does:
+## 📂 Repository Index
 
-### Core Features
+| Project | Tech Stack | Description | Link |
+| :--- | :--- | :--- | :--- |
+| **EcoWatt (GreenFuture)** | React 19, TypeScript, Vite, TailwindCSS v4, Python | Advanced real-time smart energy intelligence, carbon footprint tracking, predictive analytics, and automated academic report generator. | [Explore Project](./GreenFuture) |
+| **Energy Consumption Predictor** | Python, Jupyter, Streamlit, Scikit-Learn | Machine learning-powered household energy prediction model using Linear Regression & Random Forest time-series forecasting. | [View Notebook](./Energy_Consumption_Predictor.ipynb) |
 
-**Energy Prediction**
-- Uses Linear Regression to predict energy consumption based on inputs like temperature, humidity, power rating, device count, and occupancy
-- Generates predictions and calculates associated metrics
+---
 
-### Key Metrics Displayed
+## 1. 🌱 [EcoWatt (GreenFuture)](./GreenFuture)
 
-- ⚡ Energy usage (kWh)
-- 💰 Cost in INR (₹)
-- 🌍 CO₂ emissions (kg)
-- ⏰ Peak hour category
-- 📉 Saving potential (%)
-- 🌱 Eco Score (0-100)
+A modern, production-grade web application and analytics platform built with React 19, TypeScript, and Vite.
 
-### User Features
+### Highlights
+- **Real-Time ML Forecaster**: Computes instantaneous kWh usage based on occupancy, temperature, humidity, and active appliances.
+- **Sustainability & Eco-Score**: Tracks live $CO_2$ carbon emissions, cost in INR ($\text{₹}$), and assigns an intuitive 0–100 Eco-Score.
+- **Full Academic & Technical Report**: Contains compiled `.pdf`, `.docx`, and `.md` reports along with `build_complete_report.py` for automated document compilation with publication-ready charts.
+- **Sleek UI**: Fluid animations with Framer Motion, responsive Tailwind CSS v4 styling, and dark/light themes.
 
-- Login system with credentials (admin/vighnesh)
-- Weather integration via OpenWeatherMap API to fetch current weather data
-- Prediction history stored in CSV with editable/deletable records
-- Dataset upload capability to use custom CSV data
-- Interactive visualizations including energy trends and appliance consumption charts
+👉 **[Go to GreenFuture Directory & Setup Guide](./GreenFuture)**
 
-### Admin-Only Features
+---
 
-- Random Forest model for time-series forecasting
-- Future energy consumption predictions (up to 30 steps ahead)
-- Model evaluation metrics (MAE, MSE, RMSE, R² Score)
+## 2. ⚡ [Energy Consumption Predictor](./Energy_Consumption_Predictor.ipynb)
 
-### Data Management
+A Streamlit web application and Jupyter notebook that predicts household energy consumption and provides sustainability insights.
 
-- Editable sample dataset (200 synthetic records)
-- Automatic model retraining when data is modified
-- CSV report download for predictions
+### Highlights
+- **Energy Prediction**: Uses Linear Regression to predict energy consumption based on temperature, humidity, power rating, device count, and occupancy.
+- **Key Metrics**: Energy usage (kWh), Cost in INR (₹), CO₂ emissions (kg), Peak hour category, Saving potential (%), Eco Score (0–100).
+- **Interactive UI**: User login system, OpenWeatherMap API integration, prediction history management, and CSV download.
+- **Admin Capabilities**: Random Forest time-series forecasting (up to 30 steps ahead) with model evaluation (MAE, MSE, RMSE, R² Score).
 
-### Deployment
+---
 
-The notebook deploys the app to Google Colab using Streamlit + ngrok, creating a public URL to access the web interface.
+## 👨‍💻 Author
+
+**Vighnesh S**  
+GitHub: [@S-VIGHNESH18](https://github.com/S-VIGHNESH18)
