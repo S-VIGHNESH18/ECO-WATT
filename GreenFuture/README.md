@@ -4,7 +4,7 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.x-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![TailwindCSS](https://img.shields.io/badge/TailwindCSS-v4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 
 An intelligent, next-generation energy analytics dashboard and machine-learning driven forecasting platform designed to optimize household and commercial power consumption, reduce peak-hour strain, calculate actionable carbon emissions ($CO_2$), and improve consumer eco-scores.
 
@@ -133,11 +133,6 @@ Outputs will be saved in `EcoWatt_Project_Report.docx` and `report_figures/`.
 
 ## 👨‍💻 Author
 
-**Vighnesh S**  
+**S Vighnesh **  
 - GitHub: [@S-VIGHNESH18](https://github.com/S-VIGHNESH18)
 
----
-
-## 📜 License
-
-This project is licensed under the MIT License — see the LICENSE file for details.
