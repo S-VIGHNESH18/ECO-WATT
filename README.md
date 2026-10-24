@@ -1,6 +1,6 @@
 # 🚀 Projects Portfolio
 
-A collection of machine learning, energy analytics, and sustainable technology projects by [Vighnesh S](https://github.com/S-VIGHNESH18).
+A collection of machine learning, energy analytics, and sustainable technology projects by [S Vighnesh ](https://github.com/S-VIGHNESH18).
 
 ---
 
