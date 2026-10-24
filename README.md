@@ -1,40 +1,26 @@
-# 🚀 EcoWatt Sustainability & Smart Energy Portfolio
+# 🚀 Projects Portfolio
 
-A collection of machine learning, energy analytics, and sustainable technology platforms by [S Vighnesh](https://github.com/S-VIGHNESH18).
-
----
-
-## 🎬 Project Demo Video
-- 📹 [Watch Project Demo Recording (`demo.mp4`)](./GreenFuture/demo.mp4)
+A collection of machine learning, energy analytics, and sustainable technology projects by [S Vighnesh](https://github.com/S-VIGHNESH18).
 
 ---
 
-## 🌐 Project Applications & Deployments
+## 1. 🌱 [EcoWatt (GreenFuture)](./GreenFuture)
 
-| Directory | Application | Tech Stack | Status / Access |
-| :--- | :--- | :--- | :--- |
-| **📁 [`GreenFuture/`](./GreenFuture)** | **Modern Web Platform (SPA)** | React 19, TypeScript, Vite, Tailwind CSS | [Live Web App](https://s-vighnesh18.github.io/projects/) |
-| **📁 [`EcoWatt/`](./EcoWatt)** | **Streamlit ML Dashboard** | Python, Streamlit, Scikit-Learn, Pandas | [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=S-VIGHNESH18/projects&branch=main&mainModule=EcoWatt/app.py) |
-| **📓 [`Notebooks`](./Energy_Consumption_Predictor.ipynb)** | **Model Research & Evaluation** | Jupyter, Scikit-Learn | [View Notebook](./Energy_Consumption_Predictor.ipynb) |
+A modern, production-grade web application and analytics platform built with React 19, TypeScript, and Vite.
 
----
+### Highlights
+- **Real-Time ML Forecaster**: Computes instantaneous kWh usage based on occupancy, temperature, humidity, and active appliances.
+- **Sustainability & Eco-Score**: Tracks live $CO_2$ carbon emissions, cost in INR ($\text{₹}$), and assigns an intuitive 0–100 Eco-Score.
+- **Full Academic & Technical Report**: Contains compiled `.pdf`, `.docx`, and `.md` reports along with `build_complete_report.py` for automated document compilation with publication-ready charts.
+- **Sleek UI**: Fluid animations with Framer Motion, responsive Tailwind CSS v4 styling, and dark/light themes.
 
-## 1. 🌐 Web Platform (`GreenFuture`)
-A modern, production-grade web application built with React 19, TypeScript, and Vite.
-
-### Running Locally
-```bash
-cd GreenFuture
-npm install
-npm run dev
-```
-
-The app runs locally in the browser and provides real-time smart energy analytics, carbon tracking, system recommendations, and responsive sustainability dashboards.
+👉 **[Go to GreenFuture Directory & Setup Guide](./GreenFuture)**
 
 ---
 
 ## 2. ⚡ Streamlit ML Dashboard (`EcoWatt`)
-A dedicated Python Streamlit dashboard offering interactive linear regression and Random Forest forecasting.
+
+A dedicated Python Streamlit dashboard for interactive energy prediction and forecasting.
 
 ### Setup
 ```bash
@@ -49,18 +35,17 @@ python -m streamlit run app.py
 - Time-series forecasting for future consumption patterns
 - Data-driven sustainability insights for residential energy use
 
-> Deploy to Cloud: Click the Open in Streamlit badge above.
-
 ---
 
-## 3. 📊 Model Research & Notebook (`Energy_Consumption_Predictor.ipynb`)
-This notebook explores predictive modeling workflows for household electricity consumption and includes experiments, evaluation metrics, and analysis for energy optimization.
+## 3. 📓 [Energy Consumption Predictor](./Energy_Consumption_Predictor.ipynb)
+
+A Streamlit web application and Jupyter notebook that predicts household energy consumption and provides sustainability insights.
 
 ### Highlights
-- Linear regression modeling
-- Random Forest forecasting
-- Performance evaluation using MAE, MSE, RMSE, and R²
-- Sustainability-focused reporting and decision support
+- **Energy Prediction**: Uses Linear Regression to predict energy consumption based on temperature, humidity, power rating, device count, and occupancy.
+- **Key Metrics**: Energy usage (kWh), Cost in INR (₹), CO₂ emissions (kg), Peak hour category, Saving potential (%), Eco Score (0–100).
+- **Interactive UI**: User login system, OpenWeatherMap API integration, prediction history management, and CSV download.
+- **Admin Capabilities**: Random Forest time-series forecasting (up to 30 steps ahead) with model evaluation (MAE, MSE, RMSE, R² Score).
 
 ---
 
