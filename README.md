@@ -1,6 +1,24 @@
 # 🚀 Projects Portfolio
 
-A collection of machine learning, energy analytics, and sustainable technology projects by [S Vighnesh](https://github.com/S-VIGHNESH18).
+A collection of machine learning, energy analytics, and sustainable technology projects by [S Vighnesh ](https://github.com/S-VIGHNESH18).
+
+---
+
+## 🎬 Project Demo Video
+
+Watch the project walkthrough and feature demo here:
+
+- [Project Demo Video](http://localhost:5173/demo.mp4)
+
+---
+
+## 📂 Repository Index
+
+| Project | Tech Stack | Description | Link |
+| :--- | :--- | :--- | :--- |
+| **EcoWatt (GreenFuture)** | React 19, TypeScript, Vite, TailwindCSS v4, Python | Advanced real-time smart energy intelligence, carbon footprint tracking, predictive analytics, and automated academic report generation. | [Explore Project](./GreenFuture) |
+| **📁 [`EcoWatt/`](./EcoWatt)** | **Streamlit ML Dashboard** | Python, Streamlit, Scikit-Learn, Pandas | [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=S-VIGHNESH18/projects&branch=main&mainModule=EcoWatt/app.py) |
+| **Energy Consumption Predictor** | Python, Jupyter, Streamlit, Scikit-Learn | Machine learning-powered household energy prediction model using Linear Regression & Random Forest time-series forecasting. | [View Notebook](./Energy_Consumption_Predictor.ipynb) |
 
 ---
 
