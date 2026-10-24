@@ -69,5 +69,5 @@ A Streamlit web application and Jupyter notebook that predicts household energy 
 
 ## 👨‍💻 Author
 
-**Vighnesh S**  
+**S Vighnesh **  
 GitHub: [@S-VIGHNESH18](https://github.com/S-VIGHNESH18)
