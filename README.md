@@ -4,11 +4,19 @@ A collection of machine learning, energy analytics, and sustainable technology p
 
 ---
 
+## 🎬 Project Demo Video
+
+Watch the project walkthrough and feature demo here:
+
+- [Project Demo Video](http://localhost:5173/demo.mp4)
+
+---
+
 ## 📂 Repository Index
 
 | Project | Tech Stack | Description | Link |
 | :--- | :--- | :--- | :--- |
-| **EcoWatt (GreenFuture)** | React 19, TypeScript, Vite, TailwindCSS v4, Python | Advanced real-time smart energy intelligence, carbon footprint tracking, predictive analytics, and automated academic report generator. | [Explore Project](./GreenFuture) |
+| **EcoWatt (GreenFuture)** | React 19, TypeScript, Vite, TailwindCSS v4, Python | Advanced real-time smart energy intelligence, carbon footprint tracking, predictive analytics, and automated academic report generation. | [Explore Project](./GreenFuture) |
 | **Energy Consumption Predictor** | Python, Jupyter, Streamlit, Scikit-Learn | Machine learning-powered household energy prediction model using Linear Regression & Random Forest time-series forecasting. | [View Notebook](./Energy_Consumption_Predictor.ipynb) |
 
 ---
